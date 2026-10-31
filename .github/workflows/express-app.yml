@@ -9,9 +9,7 @@ name: Release Node.js app
 
 on:
   push:
-    branches:
-      - main
-      - branch
+  pull_request:
   workflow_dispatch:
 
 jobs:
